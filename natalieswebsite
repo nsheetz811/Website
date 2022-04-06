@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<head>
+<html lang="en">
+  <meta charset="utf-8">
+    <title>Natalie's Page</title>
+  </head>
+  
+      
+   <header>
+  <link rel="stylesheet" href="main.css">
+    <h1>Thanks for visiting! </h1>
+  </header>
+
+
+  
+<section>
+    
+
+      <h2>Follow my progress in CS401</h2>
+     <li> <a href = "https://natalytical.comm/Chapter10/index.html"><button> Homework 10</button></a></li>
+    <li> <a href = "https://natalytical.com/Chapter11/index.html"><button>Homework 11</button></a></li>
+    <li> <a href = "https://natalytical.com/Chapter12/personal/index.html"><button>Homework 12</button></a></li>
+    <li> <a href = "https://natalytical.com/Chapter13/personal/index.html"><button>Homework 13</button></a></li>
+    <li> <a href = "https://natalytical.com/TemperatureConverter/index.html"><button>Temperature Converter</button></a></li>
+    <li> <a href = "https://natalytical.com/TempConverter2.0/index.html"><button>Temperature Converter 2.0</button></a></li>
+      
+      
+  <figure class="cats">
+    <img src="Nora.jpeg" alt="Nora" width="150" height= "150">
+    <figcaption>Nora</figcaption>
+  </figure>
+
+<figure class="cats">
+    <img src="coraline.jpeg" alt="Cori" width="150" height= "150">
+    <figcaption>Coraline</figcaption>
+  </figure>
+  
+  <figure class="cats">
+    <img src="daisyandhailey.jpeg" alt="DnH" width="150" height= "150">
+    <figcaption>Daisy and Hailey</figcaption>
+  </figure>
+  
+  <figure class="cats">
+    <img src="zoeyandgriffin.jpeg" alt="ZnG" width="150" height= "150">
+    <figcaption>Zoey and Griffin</figcaption>
+  </figure>
+ 
+</section>
+</html>
