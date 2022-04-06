@@ -1,0 +1,170 @@
+html {
+  background-image: url("webbackround.jpg");
+  background-repeat: repeat;
+  font-family: sans-serif;
+  cursor: url(https://cur.cursors-4u.net/cursors/cur-6/cur544.cur), auto !important;
+}
+
+body {
+  width: 1000px;
+  height:900px;
+  background-color:#c5d9de;
+  border-style:dashed;
+  border-color: #328fa8;
+  border-width:5px;
+  margin: 0 auto;
+  border-radius: 5px 5px 5px 5px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 120%;
+}
+h1{
+  text-align:center;
+  font-family: sans-serif;
+  text-transform: uppercase;
+  font-size: 2em;
+  letter-spacing: 4px;
+  overflow: hidden;
+  background: linear-gradient(90deg, #000, #fff, #000);
+  background-repeat: no-repeat;
+  background-size: 80%;
+  animation: animate 3s linear infinite;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: rgba(255, 255, 255, 0);
+}
+
+@keyframes animate {
+  0% {
+    background-position: -500%;
+  }
+  100% {
+    background-position: 500%;
+  }
+}
+section{
+    text-align:center;
+}
+a:hover{
+    cursor: url(https://cur.cursors-4u.net/nature/nat-10/nat996.cur), auto !important;
+}
+a: {
+   color: #34a8eb;
+}
+
+.cats {
+  float: left;
+  margin: 20px;
+  animation: wave  ease-in-out 0.5s infinite alternate;
+  transform-origin: center -20px;
+}
+
+.cats:hover {
+  animation-play-state: paused;
+}
+
+.cats img {
+  border: 5px solid #f8f8f8;
+  display: block;
+  width: 200px;
+  height: 250px;
+}
+
+.cats figcaption {
+  text-align: center;
+}
+
+.cats:after{
+  content: '';
+  position: absolute;
+  width: 20px; 
+  height: 20px;
+  border: 1.5px solid #ffffff;
+  top: -10px; 
+  left: 50%;
+  z-index: 0;
+  border-bottom: none;
+  border-right: none;
+  transform: rotate(45deg);
+}
+       
+.cats:before{
+  content: '';
+  position: absolute;
+  top: -23px;
+  left: 50%;
+  display: block;
+  height: 44px;
+  width: 47px;
+  background-image: url(https://cdn.hashnode.com/res/hashnode/image/upload/v1602040503586/FW6g79WBY.png);
+  background-size: 20px 20px;
+  background-repeat: no-repeat;
+  z-index: 16;
+}
+        
+@keyframes wave {
+  0% { transform: rotate(3deg); }
+  100% { transform: rotate(-3deg); }
+}
+
+@media screen and (max-width: 479px) {
+    body {
+  width: 600px;
+  height:450px;
+  background-color:#c5d9de;
+  border-style:dashed;
+  border-color: #328fa8;
+  border-width:5px;
+  margin: 0 auto;
+  border-radius: 5px 5px 5px 5px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 115%;
+}
+.cats {
+  float: left;
+  margin: 15px;
+  animation: wave  ease-in-out 0.5s infinite alternate;
+  transform-origin: center -15px;
+}
+
+.cats:hover {
+  animation-play-state: paused;
+}
+
+.cats img {
+  border: 5px solid #f8f8f8;
+  display: block;
+  width: 185px;
+  height: 185px;
+}
+
+.cats figcaption {
+  text-align: center;
+}
+
+.cats:after{
+  content: '';
+  position: absolute;
+  width: 15px; 
+  height: 15px;
+  border: 1.5px solid #ffffff;
+  top: -7px; 
+  left: 30%;
+  z-index: 0;
+  border-bottom: none;
+  border-right: none;
+  transform: rotate(45deg);
+}
+       
+.cats:before{
+  content: '';
+  position: absolute;
+  top: -19px;
+  left: 30%;
+  display: block;
+  height: 38px;
+  width: 40px;
+  background-image: url(https://cdn.hashnode.com/res/hashnode/image/upload/v1602040503586/FW6g79WBY.png);
+  background-size: 20px 20px;
+  background-repeat: no-repeat;
+  z-index: 16;
+}
+}
